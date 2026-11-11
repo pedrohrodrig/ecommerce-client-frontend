@@ -1,0 +1,19 @@
+{
+  // Lint e formatação pela extensão Oxc, usando o oxlint (.oxlintrc.json) e o
+  // oxfmt (.oxfmtrc.json) do projeto, os mesmos do CI.
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "oxc.fmt.experimental": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.oxc": "explicit"
+  },
+
+  // TypeScript 7 (compilador nativo): o pacote não traz o tsserver clássico,
+  // então o editor usa a extensão "TypeScript (Native Preview)".
+  "typescript.experimental.useTsgo": true,
+
+  // Tailwind v4: indica o CSS de entrada para o autocompletar de classes.
+  "tailwindCSS.experimental.configFile": "src/app/globals.css",
+
+  "files.eol": "\n"
+}
