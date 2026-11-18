@@ -2,12 +2,12 @@
 
 ## Branches (git flow)
 
-| Branch                | Papel                                                                               |
-| --------------------- | ----------------------------------------------------------------------------------- |
-| `main`                | Código em produção. Só recebe merges de `release/*` (e `hotfix/*`).                 |
-| `develop`             | Integração. Base de todo trabalho novo.                                             |
-| `feature/<descricao>` | Uma funcionalidade ou ajuste. Sai de `develop` e volta por PR.                      |
-| `release/<versao>`    | Preparação de uma versão. Sai de `develop`, entra em `main` e volta para `develop`. |
+| Branch                | Papel                                                                       |
+| --------------------- | --------------------------------------------------------------------------- |
+| `main`                | Código em produção. Só recebe merges de `release/*` (e `hotfix/*`).         |
+| `dev`                 | Integração. Base de todo trabalho novo.                                     |
+| `feature/<descricao>` | Uma funcionalidade ou ajuste. Sai de `dev` e volta por PR.                  |
+| `release/<versao>`    | Preparação de uma versão. Sai de `dev`, entra em `main` e volta para `dev`. |
 
 ## Commits
 
