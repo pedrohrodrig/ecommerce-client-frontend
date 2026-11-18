@@ -1,6 +1,4 @@
 {
-  // Lint e formatação pela extensão Oxc, usando o oxlint (.oxlintrc.json) e o
-  // oxfmt (.oxfmtrc.json) do projeto, os mesmos do CI.
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
   "oxc.fmt.experimental": true,
